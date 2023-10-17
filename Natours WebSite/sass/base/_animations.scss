@@ -1,0 +1,52 @@
+/*we define class like backend language. and we use this function other things. for example .logo hover */
+
+@keyframes moveInLeft {
+
+    0% {
+        opacity: 0;
+        transform: translate(-10rem);
+    }
+
+    80% {
+        transform: translate(1rem) ;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
+/* if we use rotate it help us for turn around itself and good animation */
+@keyframes moveInRight {
+
+    0% {
+        opacity: 0;
+        transform: translate(10rem);
+    }
+
+    80% {
+        transform: translate(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
+
+@keyframes moveInBottom {
+
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
